@@ -1,0 +1,28 @@
+@import "./reset.scss";
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font: .12rem/1.4 arial,helvetica,sans-serif;
+}
+
+.flex {
+  display: flex;
+
+  .flex-100 {
+    flex: 1;
+  }
+}
+
+#app {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
